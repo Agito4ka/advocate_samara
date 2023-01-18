@@ -1,0 +1,41 @@
+html {
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+html  {
+    scroll-behavior: smooth;
+    }
+
+a,h1,h2,h3 {
+    font-family: Forum;
+}
+span {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.main_text {
+    background-image: url(./image/sud.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+div.navbar {
+    display: block;
+    position: fixed;
+    z-index: 999;
+    opacity: 0.8;
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 10px;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+.bio{
+    background-image: url(./image/bio_photo.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-repeat: no-repeat;
+}
